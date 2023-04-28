@@ -1,6 +1,8 @@
 import {getMenu} from './itemClass';
 import {clear} from './clear.js';
 
+const menuItems = getMenu();
+
 function createStructure(menuItems){
     // menu container
     const menuContent = document.createElement('div');
@@ -73,7 +75,7 @@ function _createMenu(menuItems){
 
 function createMenu(){
     clear();
-    _createMenu(getMenu());
+    _createMenu(menuItems);
 }
 
 export {createMenu};
