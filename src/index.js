@@ -1,7 +1,10 @@
 import './style.css';
 import {createHome} from './homepage.js';
-import {getMenu} from './itemClass.js';
 import {createMenu} from './menu.js';
 
-createMenu(getMenu());
+const home = document.querySelector('.home');
+home.addEventListener('click', createHome);
+
+const menu = document.querySelector('.menu');
+menu.addEventListener('click', createMenu);
 

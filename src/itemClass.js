@@ -59,7 +59,7 @@ let menuItems = [];
 
 function getMenu(){
     for(let i = 0; i < names.length; i++){
-        const item = new Item(`${names[i]}`, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation')
+        const item = new Item(`${names[i]}`, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
         menuItems.push(item);
     }
 

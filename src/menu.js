@@ -1,3 +1,5 @@
+import {getMenu} from './itemClass';
+
 function createStructure(menuItems){
     // menu container
     const menuContent = document.createElement('div');
@@ -61,11 +63,15 @@ function getMenuElements(menuItems){
     return menuElements;
 }
 
-function createMenu(menuItems){
+function _createMenu(menuItems){
     const content = document.getElementById('content');
     const footer = document.querySelector('.footer');
 
     content.insertBefore(createStructure(menuItems), footer);
+}
+
+function createMenu(){
+    _createMenu(getMenu());
 }
 
 export {createMenu};
