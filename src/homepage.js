@@ -1,3 +1,5 @@
+import {clear} from './clear.js';
+
 function createStructure(){
     const homeContent = document.createElement('div');
     homeContent.classList.add('homepage');
@@ -88,6 +90,7 @@ function getMap(){
 }
 
 function createHome(){
+    clear();
     const content = document.querySelector('#content');
     const footer = document.querySelector('.footer');
     

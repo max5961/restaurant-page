@@ -1,4 +1,5 @@
 import {getMenu} from './itemClass';
+import {clear} from './clear.js';
 
 function createStructure(menuItems){
     // menu container
@@ -71,6 +72,7 @@ function _createMenu(menuItems){
 }
 
 function createMenu(){
+    clear();
     _createMenu(getMenu());
 }
 
