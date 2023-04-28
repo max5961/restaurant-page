@@ -1,3 +1,5 @@
 import './style.css';
+import {createHome} from './homepage.js';
 
-console.log('hello world');
+createHome();
+
