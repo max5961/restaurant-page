@@ -30,7 +30,9 @@ reservations.addEventListener('click', (e) => {
 
 function styleClicked(e){
     const buttons = document.querySelectorAll('.hero-links button');
-    buttons.forEach(button => button.style.borderBottom = 'none');
+    buttons.forEach(button => {
+        button.style.borderBottom = 'none';
+    });
 
-    e.target.style.borderBottom = '2px solid #b29775'; 
+    e.target.style.borderBottom = '2px solid #b29775';
 }

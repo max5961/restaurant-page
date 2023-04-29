@@ -27,6 +27,7 @@ function createFName(){
     fNameInput.type = 'text';
     fNameInput.id = 'first-name';
     fNameInput.placeholder = 'First name';
+    fNameInput.required = 'true';
 
     //create container and append label and input
     const fNameContainer = document.createElement('div');
@@ -47,6 +48,7 @@ function createLName(){
     lNameInput.type = 'text';
     lNameInput.id = 'first-name';
     lNameInput.placeholder = 'Last name';
+    lNameInput.required = 'true';
 
     //create container and append label and input
     const lNameContainer = document.createElement('div');
@@ -87,6 +89,7 @@ function createPhone(){
     phoneInput.type = 'tel';
     phoneInput.id = 'tel'
     phoneInput.name = 'tel';
+    phoneInput.required = 'true';
     preventInvalidChars(phoneInput);
 
     //create container and append label and input
@@ -137,6 +140,7 @@ function createDate(){
     date.type = 'date';
     date.id = 'date';
     date.name = 'date';
+    date.required = 'true';
     
     return date;
 }
@@ -146,8 +150,9 @@ function createTime(){
     time.type = 'time';
     time.id = 'time';
     time.name = 'time';
-    time.min = '05:30';
-    time.max = '10:00';
+    time.min = '17:30';
+    time.max = '21:30';
+    time.required = 'true';
 
     return time;
 }
@@ -156,7 +161,7 @@ function createSubmit(){
     const submit = document.createElement('button');
     submit.type = 'submit';
     submit.textContent = 'Submit';
-    submit.addEventListener('click', e => e.preventDefault());
+    //submit.addEventListener('click', e => e.preventDefault());
 
     return submit;
 }
