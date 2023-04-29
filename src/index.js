@@ -70,7 +70,7 @@ function maxWidth(){
     if(window.innerWidth > 550){
 
         buttons.forEach(button => {
-            button.style.backgroundColor = 'rgba(255,255,255,0';
+            button.style.backgroundColor = 'rgba(255,255,255,0)';
             if(targeted.includes(button)){
                 button.style.borderBottom = '2px solid #b29775';
             }
