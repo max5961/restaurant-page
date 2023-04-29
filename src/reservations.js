@@ -11,11 +11,11 @@ function structureMessage(){
 
     const thankYouMessageTop = document.createElement('div');
     thankYouMessageTop.classList.add('thank-you-message');
-    thankYouMessageTop.textContent = 'Thank you for your interest in dining at My Restaurant.  We are not affiliated with My Pillow';
+    thankYouMessageTop.textContent = 'Thank you for your interest in dining at My Restaurant.  We are not affiliated with My Pillow.';
 
     const thankYouMessageBottom = document.createElement('div');
     thankYouMessageBottom.classList.add('thank-you-message');
-    thankYouMessageBottom.textContent = 'To make a reservation please fill out the form below';
+    thankYouMessageBottom.textContent = 'To make a reservation please fill out the form below.';
 
     [h1, thankYouMessageTop, thankYouMessageBottom].forEach(el => message.appendChild(el));
 
