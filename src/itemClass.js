@@ -53,6 +53,8 @@ const names = [
     'BBQ Pulled Pork Sandwich with Coleslaw',
     'Baked Mac and Cheese',
     'Grilled Chicken Caesar Salad',
+    'Baked Mac and Cheese',
+    'Baked Mac and Cheese',
 ]
 
 function getMenu(){

@@ -1,4 +1,5 @@
 import './style.css';
+import './reservations.css';
 import { createHeader } from './header.js';
 import { createFooter } from './footer.js';
 import { createHome } from './homepage.js';

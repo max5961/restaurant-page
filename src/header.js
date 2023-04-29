@@ -5,7 +5,6 @@ function createStructure(){
     hero.appendChild(createH1());
     hero.appendChild(createLinks());
     
-    console.log(hero);
     return hero;  
 }
 

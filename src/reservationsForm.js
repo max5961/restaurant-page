@@ -31,6 +31,7 @@ function createFName(){
     //create container and append label and input
     const fNameContainer = document.createElement('div');
     fNameContainer.classList.add('label-input-container');
+    fNameContainer.classList.add('fname');
     fNameContainer.appendChild(fNameLabel);
     fNameContainer.appendChild(fNameInput);
 
@@ -50,6 +51,7 @@ function createLName(){
     //create container and append label and input
     const lNameContainer = document.createElement('div');
     lNameContainer.classList.add('label-input-container');
+    lNameContainer.classList.add('lname');
     lNameContainer.appendChild(lNameLabel);
     lNameContainer.appendChild(lNameInput);
 
@@ -69,6 +71,7 @@ function createEmail(){
     //create container and append label and input
     const emailContainer = document.createElement('div');
     emailContainer.classList.add('label-input-container');
+    emailContainer.classList.add('email');
     emailContainer.appendChild(emailLabel);
     emailContainer.appendChild(emailInput);
 
@@ -89,6 +92,7 @@ function createPhone(){
     //create container and append label and input
     const phoneContainer = document.createElement('div');
     phoneContainer.classList.add('label-input-container');
+    phoneContainer.classList.add('phone')
     phoneContainer.appendChild(phoneLabel);
     phoneContainer.appendChild(phoneInput);
 

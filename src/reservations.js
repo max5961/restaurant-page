@@ -24,9 +24,20 @@ function structureMessage(){
 
 export function createReservations(){
     clear();
-    
+
+    const reservationsContainer = document.createElement('div');
+    reservationsContainer.classList.add('reservations-container');
+
+    const contentContainer = document.createElement('div');
+    contentContainer.classList.add('res-content');
+
+    contentContainer.appendChild(structureMessage());
+    contentContainer.appendChild(structureForm());
+
+    reservationsContainer.appendChild(contentContainer);
+
     const content = document.getElementById('content');
     const footer = document.querySelector('.footer');
-    content.insertBefore(structureMessage(), footer);
-    content.insertBefore(structureForm(), footer);
+    content.insertBefore(reservationsContainer, footer);
+
 }
