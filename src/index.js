@@ -1,4 +1,4 @@
-import './style.css';
+import './index.css';
 import './reservations.css';
 import { createHeader } from './header.js';
 import { createFooter } from './footer.js';
