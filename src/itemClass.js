@@ -55,9 +55,10 @@ const names = [
     'Grilled Chicken Caesar Salad',
 ]
 
-let menuItems = [];
-
 function getMenu(){
+
+    let menuItems = [];
+
     for(let i = 0; i < names.length; i++){
         const item = new Item(`${names[i]}`, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
         menuItems.push(item);
