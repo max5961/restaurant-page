@@ -156,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createFooter\": () => (/* binding */ createFooter)\n/* harmony export */ });\n/* harmony import */ var _images_icon_facebook_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/icon-facebook.svg */ \"./src/images/icon-facebook.svg\");\n/* harmony import */ var _images_icon_instagram_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/icon-instagram.svg */ \"./src/images/icon-instagram.svg\");\n/* harmony import */ var _images_icon_twitter_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/icon-twitter.svg */ \"./src/images/icon-twitter.svg\");\n\n\n\n\nfunction createFooter(){\n    const footer = document.createElement('footer');\n    footer.classList.add('footer');\n    \n    const socialMedia = document.createElement('div');\n    socialMedia.classList.add('social-media-links');\n    \n    const img1 = document.createElement('img');\n    const img2 = document.createElement('img');\n    const img3 = document.createElement('img');\n\n    img1.src = _images_icon_facebook_svg__WEBPACK_IMPORTED_MODULE_0__;\n    img2.src = _images_icon_instagram_svg__WEBPACK_IMPORTED_MODULE_1__;\n    img3.src = _images_icon_twitter_svg__WEBPACK_IMPORTED_MODULE_2__;\n\n    img1.alt = 'facebook';\n    img2.alt = 'instagram';\n    img3.alt = 'twitter';\n\n    socialMedia.appendChild(img1);\n    socialMedia.appendChild(img2);\n    socialMedia.appendChild(img3);\n\n    footer.appendChild(socialMedia);\n\n    const content = document.getElementById('content');\n    content.appendChild(footer);\n}\n\n//# sourceURL=webpack://restaurant-page/./src/footer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createFooter\": () => (/* binding */ createFooter)\n/* harmony export */ });\n/* harmony import */ var _images_icon_facebook_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/icon-facebook.svg */ \"./src/images/icon-facebook.svg\");\n/* harmony import */ var _images_icon_instagram_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/icon-instagram.svg */ \"./src/images/icon-instagram.svg\");\n/* harmony import */ var _images_icon_twitter_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/icon-twitter.svg */ \"./src/images/icon-twitter.svg\");\n/* harmony import */ var _images_icon_github_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/icon-github.svg */ \"./src/images/icon-github.svg\");\n\n\n\n\n\nfunction createFooter(){\n    const footer = document.createElement('footer');\n    footer.classList.add('footer');\n    \n    const socialMedia = document.createElement('div');\n    socialMedia.classList.add('social-media-links');\n    \n    const img1 = document.createElement('img');\n    const img2 = document.createElement('img');\n    const img3 = document.createElement('img');\n    const img4 = document.createElement('img');\n\n    img1.src = _images_icon_facebook_svg__WEBPACK_IMPORTED_MODULE_0__;\n    img2.src = _images_icon_instagram_svg__WEBPACK_IMPORTED_MODULE_1__;\n    img3.src = _images_icon_twitter_svg__WEBPACK_IMPORTED_MODULE_2__;\n    img4.src = _images_icon_github_svg__WEBPACK_IMPORTED_MODULE_3__;\n\n    img1.alt = 'facebook';\n    img2.alt = 'instagram';\n    img3.alt = 'twitter';\n    img4.alt = 'github';\n    \n    img4.style.width = '20px';\n    img4.style.height = '20px';\n    \n\n    socialMedia.appendChild(img1);\n    socialMedia.appendChild(img2);\n    socialMedia.appendChild(img3);\n    socialMedia.appendChild(img4);\n\n    footer.appendChild(socialMedia);\n\n    const content = document.getElementById('content');\n    content.appendChild(footer);\n}\n\n//# sourceURL=webpack://restaurant-page/./src/footer.js?");
 
 /***/ }),
 
@@ -267,6 +267,16 @@ eval("module.exports = __webpack_require__.p + \"ad79dc9c0c2050638e84.otf\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"eacb176235c044927fbc.svg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/icon-facebook.svg?");
+
+/***/ }),
+
+/***/ "./src/images/icon-github.svg":
+/*!************************************!*\
+  !*** ./src/images/icon-github.svg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"255db585f8a0eb28a1e4.svg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/icon-github.svg?");
 
 /***/ }),
 
