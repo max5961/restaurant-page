@@ -1,3 +1,7 @@
+import facebook from './images/icon-facebook.svg';
+import instagram from './images/icon-instagram.svg';
+import twitter from './images/icon-twitter.svg';
+
 export function createFooter(){
     const footer = document.createElement('footer');
     footer.classList.add('footer');
@@ -9,9 +13,9 @@ export function createFooter(){
     const img2 = document.createElement('img');
     const img3 = document.createElement('img');
 
-    img1.src = './images/icon-facebook.svg';
-    img2.src = './images/icon-instagram.svg';
-    img3.src = './images/icon-twitter.svg';
+    img1.src = facebook;
+    img2.src = instagram;
+    img3.src = twitter;
 
     img1.alt = 'facebook';
     img2.alt = 'instagram';
