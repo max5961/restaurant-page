@@ -276,6 +276,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 551px){
+    .hero button {
+        background-color: none;
+    }
+}
+
 
 @media screen and (max-width: 550px) {
 

@@ -28,11 +28,53 @@ reservations.addEventListener('click', (e) => {
     createReservations();
 });
 
+window.addEventListener('resize', maxWidth);
+
+let targeted = [];
+
 function styleClicked(e){
+
+    targeted = [];
+
     const buttons = document.querySelectorAll('.hero-links button');
+
     buttons.forEach(button => {
         button.style.borderBottom = 'none';
+        button.style.backgroundColor = '';
     });
 
-    e.target.style.borderBottom = '2px solid #b29775';
+    if(window.innerWidth > 550){
+        e.target.style.borderBottom = '2px solid #b29775';
+        targeted.push(e.target);
+    } else {
+        e.target.style.backgroundColor = '#1a2631';
+        targeted.push(e.target);       
+    }
 }
+
+function maxWidth(){
+
+    const buttons = document.querySelectorAll('.hero-links button');
+
+    if(window.innerWidth < 550){
+
+        buttons.forEach(button => {
+            button.style.border = 'none';
+            button.style.backgroundColor = '#223245';
+            if(targeted.includes(button)){
+                button.style.backgroundColor = '#1a2631';
+            }
+        });
+    }
+
+    if(window.innerWidth > 550){
+
+        buttons.forEach(button => {
+            button.style.backgroundColor = 'rgba(255,255,255,0';
+            if(targeted.includes(button)){
+                button.style.borderBottom = '2px solid #b29775';
+            }
+        });
+
+    }
+}      
