@@ -84,7 +84,6 @@ function getMap(){
     iframe.setAttribute('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1748439951734!2d-74.00763190548504!3d40.71416734314788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a21feb2d2d9%3A0x9d49208205bc1571!2sChambers%20St%2FBroadway!5e0!3m2!1sen!2sus!4v1682381173953!5m2!1sen!2sus');
     iframe.setAttribute('loading', 'lazy');
     iframe.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
-    iframe.style.borderRadius = '.5rem';
 
     return iframe;
 }
